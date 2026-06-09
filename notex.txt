@@ -17,4 +17,4 @@ python teleop_hand_and_arm.py  --img-server-ip 127.0.0.1 --arm G1_29 --ee brainc
 python teleop_hand_and_arm.py --sim --arm G1_29 --ee brainco \
     --img-server-ip 127.0.0.1 --display-mode immersive
 
-d
+dc
