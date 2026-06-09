@@ -1,0 +1,20 @@
+python teleop_hand_and_arm.py --sim --img-server-ip 127.0.0.1 --arm G1_29 --ee inspire_dfx 
+
+python teleop_hand_and_arm.py  --img-server-ip 127.0.0.1 --arm G1_29 --ee inspire_dfx --record
+
+pip install decorator
+
+
+
+
+https://192.168.123.81:8012/?ws=wss://192.168.123.81:8012
+
+
+python teleop_hand_and_arm.py  --img-server-ip 127.0.0.1 --arm G1_29 --ee brainco --record
+
+
+# stereo server already on (port 5577)
+python teleop_hand_and_arm.py --sim --arm G1_29 --ee brainco \
+    --img-server-ip 127.0.0.1 --display-mode immersive
+
+d
